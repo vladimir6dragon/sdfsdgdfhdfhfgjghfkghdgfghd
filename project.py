@@ -1,3 +1,4 @@
+import random
 words=["ананас",
        "стол",
        "город",
@@ -8,3 +9,8 @@ words=["ананас",
        "покрывало",
        "покрывало",
        "пол"]
+
+while True:
+    a=random.choice(words)
+    b=random.choice(words)
+
